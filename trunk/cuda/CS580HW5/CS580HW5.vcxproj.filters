@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="head">
+      <UniqueIdentifier>{8e0484b2-bfab-49d6-8dca-1ad7112f9a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{cccec8b4-7834-4306-a4a7-8cab03e4f4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{e47ead47-29a8-46a5-a45e-4e7c160c81b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Application5.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="CS580HW.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="CS580HWDoc.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="CS580HWView.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="disp.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Gz.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="rend.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateDlg.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleDlg.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateDlg.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="book.h">
+      <Filter>head</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Application5.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CS580HW.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CS580HWDoc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CS580HWView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="disp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateDlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleDlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="tex_fun.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateDlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CS580HW.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="res\CS580HW.rc2">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="res\CS580HWDoc.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CS580HW.rc">
+      <Filter>source</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="rend.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="common.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
